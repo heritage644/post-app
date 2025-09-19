@@ -1,42 +1,56 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import "tailwindcss";
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
-html,
-body {
-  max-width: 100vw;
+html{
   overflow-x: hidden;
 }
+body {
+  max-width: 100vw;
+ 
+  background-color: #161815 ;
+}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+ 
+}
+#slong{
+
+  font-weight: bold;
+  background: linear-gradient(to right, #54e7d1, #9fbc47, #6DE754);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% auto;
+  animation: sweep 6s linear infinite;
+}
+@keyframes sweep {
+  0% { background-position: 200% center; }
+  100% { background-position: 0 center; }
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@theme {
+  --color-blacky:#161815;
+   --color-green:#6DE754;
+     --color-grey:#909090;
+     --color-translucent: rgba(255, 255, 255, 0.15)
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
+ input{
+ 
+  flex: 1;
+ padding-left: 20px;
+ }
+ #button{
+background: none;
+border: none;
+background:#6DE754;
+border-radius: 10px;
+padding: 5px 20px;
+z-index: 1;
+position: relative;
+margin-left: -70px;
+ }
