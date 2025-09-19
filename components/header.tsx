@@ -2,13 +2,10 @@
 import Link from "next/link"
 
 import React from "react";
-import { useState, useEffect } from "react";
+
 import {
-  FiArrowRight,
-  FiBarChart2,
+
   FiChevronDown,
-  FiHome,
-  FiPieChart,
 } from "react-icons/fi";
 
 import {  motion } from "framer-motion";
@@ -24,12 +21,12 @@ setIsOpen(prev=>!prev)
   }
     React.useEffect(()=>{
 if(isOpen) {
-  document.body.classList.add('no-scroll')
+  document.body.classList.add("no-scroll")
 }else{
-  document.body.classList.remove('no-scroll')
+  document.body.classList.remove("no-scroll")
 }
 return()=>{
-  document.body.classList.remove('no-scroll')
+  document.body.classList.remove("no-scroll")
 }
   },[isOpen])
   return (
@@ -60,9 +57,9 @@ return()=>{
 <div className="sm:hidden pr-10  " >
            
           <button className="shadow-md  flex flex-col justify-center items-center w-8 h-8 space-y-1 relative p-2  z-[9999] sm:hidden" onClick={clicker} >
-  <span className={`block w-6 h-0.5 bg-white  z-100 transition-transform ${isOpen ? 'rotate-45 translate-y-1.5' : ''}`} ></span>
-  <span className={`block w-6 h-0.5 bg-white  transition-opacity ${isOpen ? 'opacity-0' : ''}`}></span>
-  <span className={`block w-6 h-0.5 bg-white  transition-transform ${isOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
+  <span className={`block w-6 h-0.5 bg-white  z-100 transition-transform ${isOpen ? "rotate-45 translate-y-1.5" : ""}`} ></span>
+  <span className={`block w-6 h-0.5 bg-white  transition-opacity ${isOpen ? "opacity-0" : ""}`}></span>
+  <span className={`block w-6 h-0.5 bg-white  transition-transform ${isOpen ? "-rotate-45 -translate-y-1.5" : ""}`}></span>
 </button>
         </div>
 

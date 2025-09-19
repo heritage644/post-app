@@ -1,7 +1,7 @@
 'use client'
 import {motion} from "framer-motion"
 
-import NeuButton from "./button";
+import NeuButton from "./button"
 
 
 export default function Bottom (){
@@ -19,13 +19,13 @@ export default function Bottom (){
 
                  </div>
           </div>
-                 <div className="w-full max-w-full flex justify-end xl:pr-50"><img src="/firstpic.png" alt="" />
+                 <div className="w-full max-w-full flex justify-end xl:pr-50"><img src="/firstpic.png" alt=".forstpic" />
                  </div>
                 
                  
         </div>
           <section className="w-full bg-green flex flex-col mt-5 pb-5 items-center md:items-end ">
-             <div  className=" pl-5 w-full md:flex  md:pl-30  m">
+             <div  className=" pl-5 w-full md:flex  md:pl-30  ">
                   <div className="md:flex md:justify-start w-full ">
                     <img src="/secondpic.png" alt="" />
                     </div>

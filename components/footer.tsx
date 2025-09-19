@@ -1,5 +1,5 @@
 import NeuButton from "./button"
-import { AnimatePresence, motion } from "framer-motion";
+
 export default function Footer (){
 
     return(
