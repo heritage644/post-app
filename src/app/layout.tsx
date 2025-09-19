@@ -1,16 +1,16 @@
-// app/layout.tsx
-import "./globals.css";
-import { Kulim_Park } from "next/font/google";
+import { Inter } from 'next/font/google'
+import './globals.css' // your global styles
 
-const kulim = Kulim_Park({
-  subsets: ["latin"],
-  weight: ["300", "400", "600", "700"],
-});
+const inter = Inter({ 
+  subsets: ['latin'],
+  display: 'swap',
+})
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className={kulim.className}>
+      <body className={inter.className}>
         
         {children}
 <div id="portal-root"></div>
@@ -18,3 +18,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+
+
+
+
+  

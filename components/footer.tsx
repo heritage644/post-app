@@ -6,7 +6,7 @@ export default function Footer (){
         <>
         <footer className="bg-green mt-15 flex flex-col items-center mb-0">
             <div className="items-center flex flex-col space-y-3">
-                <h1 className="text-[40px] tex">Whats's next ?</h1>
+                <h1 className="text-[40px] tex">Whats is next ?</h1>
                 <p className="w-80 text-center">Submit better job app — 10x faster. AI cover letter generator, resume keyword checker, 
                     outreach message writer, and more. Powered by GPT</p>
                     <NeuButton/>

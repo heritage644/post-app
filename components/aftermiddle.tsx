@@ -1,7 +1,7 @@
 'use client'
 import {motion} from "framer-motion"
-import React from "react";
-import Grids from "./grids";
+import React from "react"
+import Grids from "./grids"
 export default function AfterMiddle (){
 
     return(
@@ -11,7 +11,7 @@ export default function AfterMiddle (){
                 <h1 className="text-white text-[25px]">
                     Spend less time looking for work
                 </h1>
-                <p className="w-60">We'll help you through the hardest part of your job search.</p>
+                <p className="w-60">We will  help you through the hardest part of your job search.</p>
              <div className="hidden xl:block">
                   <Example/>
              </div>
