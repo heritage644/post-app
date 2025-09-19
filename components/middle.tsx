@@ -114,7 +114,7 @@ export default function MiddleSec() {
         </div>
       </section>
 
-<section className="hidden xl:flex flex-col items-center bg-green h-255 w-full mx-50 rounded-xl mb-20">
+<section className="hidden xl:flex flex-col items-center bg-green h-255 w-full mx-20 rounded-lg mb-20">
      <h1 className="font-bold w-90 text-center pt-10 text-[30px]">
           Submit Better job applications
         </h1>

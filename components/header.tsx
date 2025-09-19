@@ -131,14 +131,22 @@ return()=>{
 
 
 <div className="hidden sm:flex gap-3">
-   <button className="border-1 border-green-700 px-4 rounded-xl
-    text-[12px] hover:bg-white hover:text-black transition:duration-300
+   <motion.button
+    whileHover={{scale:1.01, background:"white", color:"black"}}
+               whileTap={{scale:0.9}}
+               transition={{type:"spring", stiffness:400, damping:17 }}
+   className="border-1 border-green px-4 rounded-xl
+    text-[12px] text-white
    lg:px-6 lg:py-2
-   ">Sign in</button>
-    <button  className="hover:bg-black hover:text-green hover:border-1 transition:duration-700 
+   ">Sign in</motion.button>
+    <motion.button 
+     whileHover={{scale:1.01, background:"white", color:"black"}}
+               whileTap={{scale:0.9}}
+               transition={{type:"spring", stiffness:400, damping:17 }}
+    className="  transition:duration-700 
     bg-green-500 px-4 rounded-xl text-black text-[12px]
     lg:px-6 lg:py-2
-    ">Get started</button>
+    ">Get started</motion.button>
 </div>
     </header>
   );
