@@ -74,7 +74,7 @@ return()=>{
          href="/" 
           className="block text-[20px]   font-light  text-white hover:text-gray-500 transition-colors duration-300 tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="flip-left" data-aos-duration="1200"
+          data-aos="fade-left" data-aos-duration="1500"
         >
           Product
         </Link>
@@ -82,7 +82,7 @@ return()=>{
          href="/" 
           className="block text-[20px]  font-light   text-white  tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="flip-left" data-aos-duration="1200"
+          data-aos="fade-left" data-aos-duration="1500"
         >
           Pricing
         </Link>
@@ -90,7 +90,7 @@ return()=>{
          href="/" 
           className="block text-[20px]  font-light   text-white  tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="flip-left" data-aos-duration="1200"
+          data-aos="fade-left" data-aos-duration="1500"
         >
          Blog
         </Link>
@@ -98,7 +98,7 @@ return()=>{
          href="/" 
           className="block text-[20px]  font-light   text-white  tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="flip-left" data-aos-duration="1200"
+          data-aos="fade-left" data-aos-duration="1500"
         >
           Charity
         </Link>
@@ -112,7 +112,7 @@ return()=>{
           
            text-white  tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="flip-left" data-aos-duration="1200"
+          data-aos="fade-left" data-aos-duration="1500"
         >
          Sign in
         </motion.button>
