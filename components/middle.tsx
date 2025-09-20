@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 
 // Text Slider Component
 const TextSlider = ({
-  words = ["faster", "quicker", "smoother", "better", "stronger"],
+  words = ["faster", "Lithe", "Easier", "Better", "Fleet"],
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [animationState, setAnimationState] = useState("default");
@@ -80,7 +80,7 @@ const TextSlider = ({
       <span className="inline-block relative overflow-hidden w-32 h-14">
         <span
           key={currentIndex} // <-- forces React to treat each word as new
-          className={`absolute pt-5 inset-0 flex items-center justify-center transition-transform duration-800 ease-out ${getTransformClass()}`}
+          className={`absolute pt-7 inset-0 flex items-center justify-center transition-transform duration-800 ease-out ${getTransformClass()}`}
         >
           {words[currentIndex]}
         </span>
@@ -98,10 +98,10 @@ export default function MiddleSec() {
           Submit Better job applications
         </h1>
         <div>
-          <span className="font-bold text-[30px]">
-           <span  className="font-bold text-[50px]"> 10x</span>{" "}
+          <span className="font-bold text-[35px]">
+           <span  className="font-bold text-[50px]"> 10x</span>
             <TextSlider
-              words={["faster", "quicker", "smoother", "better", "stronger"]}
+              words={["Faster", "Lithe", "Easier", "Better", "Fleet"]}
             />
           </span>
         </div>

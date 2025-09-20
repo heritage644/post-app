@@ -8,7 +8,7 @@ export default function AfterMiddle (){
         <>
         <section className="text-grey flex flex-col items-center  text-center ">    
             <div className="flex flex-col space-y-5 items-center">
-                <h1 className="text-white text-[25px]">
+                <h1 className="text-white text-[25px] w-69 xl:w-full">
                     Spend less time looking for work
                 </h1>
                 <p className="w-60">We will  help you through the hardest part of your job search.</p>
@@ -19,7 +19,7 @@ export default function AfterMiddle (){
               whileHover={{scale:1.1}}
                whileTap={{scale:0.9}}
                transition={{type:"spring", stiffness:400, damping:17 }}
-             className="xl:hidden border-1 border-green rounded-lg p-2">
+             className="xl:hidden border-1 border-green rounded-lg p-2 bg-green text-black">
                 Create an account
 
              </motion.button>

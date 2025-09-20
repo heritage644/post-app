@@ -11,7 +11,7 @@ export default function Footer (){
                     outreach message writer, and more. Powered by GPT</p>
                     <NeuButton/>
             </div>
-            <section className="grid grid-cols-2 mt-5 py-10 justify-center gap-1 md:grid-cols-4 xl:gap-3">
+            <section className="grid grid-cols-2 mt-5 py-10 justify-center  md:grid-cols-4 xl:gap-3 ">
                 <ul className="pb-5 text-[14px] line space-y-1" >
                    <h1 className="font-bold">Platform</h1>
                     <li>Plans and Prices</li>
@@ -24,7 +24,7 @@ export default function Footer (){
 
                 </ul> 
 
-                 <ul className="w-50 text-[14px] md:w-40 xl:w-60 space-y-1">
+                 <ul className="w-40 text-[14px] md:w-40 xl:w-60 space-y-1">
                    <h1 className="font-bold">Features</h1>
                     <li>AI Cover Letter Creator</li>
                     <li>Resume Keywords Optimizer</li>
@@ -54,8 +54,8 @@ export default function Footer (){
                 </div>
                 
             </section>
-            <div className="text-[10px] ">
-                <span>© Copywriting</span>
+            <div className="text-[10px] pb-3">
+                <span>© Copywrite Okecukwu</span>
                 <span>All Rights Reserved</span>
                 <span>Terms of Use</span>
                 <span>Privacy</span>

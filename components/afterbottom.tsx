@@ -16,7 +16,7 @@ export default function AfterBottom (){
                        whileHover={{scale:1.01, background:"white", color:"black"}}
                whileTap={{scale:0.9}}
                transition={{type:"spring", stiffness:400, damping:17 }}
-                     className="border-1 border-green rounded-xl p-2 text-white">Create an Account</motion.button>
+                     className="border-1 border-green rounded-xl p-2 text-black bg-green">Create an Account</motion.button>
                 </div>
                  </div>
                
