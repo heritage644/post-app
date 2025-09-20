@@ -9,7 +9,7 @@ export default function AfterBottom (){
             <div className="flex items-center flex-col space-y-3 xl:items-start xl:space-y-7">
                 <h1 className="text-white pt-5 xl:text-[30px] ">Free resume design templates</h1>
             
-            <p className="text-grey w-100 xl:text-start " >By following these design tips, you can create a professional
+            <p className="text-grey w-70 md:w-100 xl:text-start " >By following these design tips, you can create a professional
                  and effective resume that will help you stand out to recruiters and hiring managers.</p>
                   <div>
                      <motion.button 
