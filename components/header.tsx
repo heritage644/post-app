@@ -66,7 +66,7 @@ return()=>{
 
          {isOpen && (
             
-  <div className="fixed inset-0 bg-transparent backdrop-blur-xl z-[1000] flex items-center justify-center"  data-aos="fade-left" data-aos-duration="800" >
+  <div className="fixed inset-0 bg-transparent backdrop-blur-xl z-[1000] flex items-center justify-center"  data-aos="fade-left" data-aos-duration="400" >
     <nav className="text-center  z-[100]   ">
       <div
       className="space-y-12  z-[100] " >
@@ -98,7 +98,7 @@ return()=>{
          href="/" 
           className="block text-[20px]  font-light   text-white  tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="fade-left" data-aos-duration="1400"
+          data-aos="fade-left" data-aos-duration="1300"
         >
           Charity
         </Link>
@@ -112,7 +112,7 @@ return()=>{
           
            text-white  tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="fade-left" data-aos-duration="1400"
+          data-aos="fade-left" data-aos-duration="1300"
         >
          Sign in
         </motion.button>
