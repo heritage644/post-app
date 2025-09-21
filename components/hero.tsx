@@ -60,7 +60,8 @@ export default function Hero(): JSX.Element {
           {/* Animate when the text scrolls into view */}
           <motion.span
           
-            className="inline-block font-bold text-green"
+            className="font-bold text-green  flex pr-2 whitespace-nowrap  pr-3 w-fit rounded-lg 
+            " 
             variants={container}
             initial="hidden"
             whileInView="show"
