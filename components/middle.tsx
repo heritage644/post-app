@@ -1,4 +1,5 @@
 'use client'
+import {  motion } from "framer-motion";
 import { RevealLinks } from "./dropbox";
 import React, { useState, useEffect } from "react";
 
@@ -110,7 +111,12 @@ export default function MiddleSec() {
           writer, and more. Powered by GPT
         </p>
         <div>
-          <img src="/rocket.svg" alt="" width={50} />
+          <motion.img
+           initial={{opacity:0, y:50, rotate:95,  scale:0.5}}
+    whileInView={{opacity:1, y:0, scale:1, rotate:0}}
+    transition={{duration:1, ease:"easeOut"}}
+    viewport={{once:true}}
+          src="/rocket.svg" alt="" width={50} />
         </div>
       </section>
 
@@ -126,7 +132,15 @@ export default function MiddleSec() {
           writer, and more. Powered by GPT
         </p>
         <div className="mt-5">
-    <img src="/banner.png" alt="" />
+
+
+
+    <motion.img
+
+    src="/banner.png" alt="" />
+
+
+
 </div>
 
 </section>

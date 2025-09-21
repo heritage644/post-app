@@ -66,7 +66,7 @@ return()=>{
 
          {isOpen && (
             
-  <div className="fixed inset-0 bg-transparent backdrop-blur-xl z-[1000] flex items-center justify-center ">
+  <div className="fixed inset-0 bg-transparent backdrop-blur-xl z-[1000] flex items-center justify-center"  data-aos="fade-left" data-aos-duration="800" >
     <nav className="text-center  z-[100]   ">
       <div
       className="space-y-12  z-[100] " >
@@ -74,7 +74,7 @@ return()=>{
          href="/" 
           className="block text-[20px]   font-light  text-white hover:text-gray-500 transition-colors duration-300 tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="fade-left" data-aos-duration="1500"
+          data-aos="fade-left" data-aos-duration="800"
         >
           Product
         </Link>
@@ -82,7 +82,7 @@ return()=>{
          href="/" 
           className="block text-[20px]  font-light   text-white  tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="fade-left" data-aos-duration="1500"
+          data-aos="fade-left" data-aos-duration="1000"
         >
           Pricing
         </Link>
@@ -90,7 +90,7 @@ return()=>{
          href="/" 
           className="block text-[20px]  font-light   text-white  tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="fade-left" data-aos-duration="1500"
+          data-aos="fade-left" data-aos-duration="1200"
         >
          Blog
         </Link>
@@ -98,7 +98,7 @@ return()=>{
          href="/" 
           className="block text-[20px]  font-light   text-white  tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="fade-left" data-aos-duration="1500"
+          data-aos="fade-left" data-aos-duration="1400"
         >
           Charity
         </Link>
@@ -112,7 +112,7 @@ return()=>{
           
            text-white  tracking-wide"
           onClick={() => setIsOpen(false)}
-          data-aos="fade-left" data-aos-duration="1500"
+          data-aos="fade-left" data-aos-duration="1400"
         >
          Sign in
         </motion.button>
